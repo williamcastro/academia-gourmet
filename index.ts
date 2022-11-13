@@ -1,6 +1,3 @@
-// Import stylesheets
-import './style.css';
+const userName: number = 'William';
 
-// Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+console.log(userName);
