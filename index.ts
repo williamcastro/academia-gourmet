@@ -1,3 +1,4 @@
-const userName: number = 'William';
+const firstName: string = 'William';
+const lastName: string = 'Coelho';
 
-console.log(userName);
+console.log(firstName + ' ' + lastName);
