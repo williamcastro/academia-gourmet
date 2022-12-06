@@ -1,35 +1,43 @@
-const idadeAluno =
+// Exemplos utilizando operador lógico AND ( && )
+const salarioAluno = 1000;
 
-// ==   : ele valida indiferente do tipo
-// ===  : ele valida considerando o tipo de dado
-if (idadeAluno === 17) {
-  console.log('(0) Sim é igual 17.');
+if (salarioAluno < 2000) {
+  console.log('O aluno ganha menos de R$ 2.000,00');
 }
 
-if (idadeAluno !== 17) {
-  console.log('(1) Sim é diferente.');
+if (salarioAluno >= 2000 && salarioAluno < 3000) {
+  console.log(
+    'O aluno ganha mais ou igual a R$ 2.000,00 e menos de R$ 3.000,00'
+  );
 }
 
-// Exemplo: 18, 19, 20 ....
-if (idadeAluno > 17) {
-  console.log('(2) Aluno é maior de idade');
+if ((salarioAluno >= 3000 && salarioAluno < 5000) || salarioAluno === 1000) {
+  console.log(
+    'O aluno ganha mais ou igual a R$ 3.000,00 e menos de R$ 5.000,00'
+  );
 }
 
-// Exemplo: 18, 19, 20...
-if (idadeAluno >= 18) {
-  console.log('Aluno é maior de idade');
+// Curso do aluno no Instituto Gourmet
+const cursoAluno = 'Cozinheiro Profissional';
+const cursoValor = 5200;
+
+if (
+  (cursoAluno === 'Confeiteiro Profissional' ||
+    cursoAluno === 'Confeiteira Profissional' ||
+    cursoAluno === 'Cake Designer' ||
+    cursoAluno === 'Faça e venda' ||
+    cursoAluno === 'Doceiro Profissional') &&
+  cursoValor >= 4000
+) {
+  console.log('É um curso que envolve confeitaria');
 }
 
-// Exemplo: 17, 16, 15, 14 .... -1, -2
-if (idadeAluno < 18) {
-  console.log('Aluno é menor de idade');
+const brasilGanhouOntem = true;
+
+if (!brasilGanhouOntem) {
+  console.log('Brasil perdeu ontem!');
 }
 
-// Exemplo: 17, 16, 15, 14 .... -1
-if (idadeAluno <= 17) {
-  console.log('Aluno é menor de idade');
+if (brasilGanhouOntem) {
+  console.log('Brasil ganhou ontem!');
 }
-
-// if é a palavra chave para escrever uma condição em javascript/typescript
-// dentro dos parenteses () são escritas as condições
-// e o resultado positivo é dado dentro das chaves {}
