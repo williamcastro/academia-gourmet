@@ -6,6 +6,8 @@ if (idadeAluno === 17) {
   console.log('(0) Sim é igual 17.');
 }
 
+// != : não compara o tipo de dado
+// !== : compara o tipo de dado
 if (idadeAluno !== 17) {
   console.log('(1) Sim é diferente.');
 }

@@ -1,1 +1,1 @@
-import './03-operadores-logicos.ts';
+import './04-funcoes.ts';
