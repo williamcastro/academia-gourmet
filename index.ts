@@ -1,1 +1,1 @@
-import './04-funcoes.ts';
+import './05-praticando.ts';
