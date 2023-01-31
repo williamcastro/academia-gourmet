@@ -1,5 +1,3 @@
-import alunos from './dados/alunos.json';
-
 // Criar uma constante com qualquer nome
 // para armazenar o "valor de parcela"
 

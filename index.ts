@@ -1,1 +1,1 @@
-import './05-praticando.ts';
+import './05-praticando-2.ts';
